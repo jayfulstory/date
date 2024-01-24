@@ -1,0 +1,22 @@
+.mainPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .logo {
+    width: 280px;
+    height: auto;
+  }
+  .rocket {
+    width: 120px;
+    height: auto;
+    padding: 12%;
+  }
+}
+
+@media (max-width: 767px) {
+  .mainPage {
+    .logo {
+      width: 220px;
+    }
+  }
+}

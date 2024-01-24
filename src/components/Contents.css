@@ -1,0 +1,29 @@
+.contents {
+  max-width: 280px;
+  /* padding: 1rem; */
+  /* margin: 0 auto; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.plant {
+  width: 280px;
+}
+.plant img {
+  width: 100%;
+}
+
+.title {
+  font-size: 20px;
+  margin-top: 0;
+}
+
+.contents {
+  margin-bottom: 60px;
+}
+@media (max-width: 767px) {
+  .plant {
+    width: 220px;
+  }
+}
