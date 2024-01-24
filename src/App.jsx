@@ -9,9 +9,8 @@ function App() {
   const [randomText, setRandomText] = useState();
   const handleContents = () => {
     if (content) {
-      setRandomText(text[Math.floor(Math.random() * 11)]);
+      setRandomText(text[Math.floor(Math.random() * 10)]);
     }
-    console.log(randomText);
     setContent(prev => !prev);
   };
   return (

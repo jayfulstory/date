@@ -7,10 +7,10 @@
   align-items: center;
   text-align: center;
 }
-.plant {
+.planet {
   width: 280px;
 }
-.plant img {
+.planet img {
   width: 100%;
 }
 
@@ -23,7 +23,7 @@
   margin-bottom: 60px;
 }
 @media (max-width: 767px) {
-  .plant {
+  .planet {
     width: 220px;
   }
 }
