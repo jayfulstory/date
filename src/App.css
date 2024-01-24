@@ -47,7 +47,7 @@ img {
 
 @media (max-width: 767px) {
   #root {
-    background-image: url(./bg/bg-sx.png);
+    background-image: url('/bg/bg-sx.png');
     background-size: cover;
     .button {
       font-size: 16px;
